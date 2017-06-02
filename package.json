@@ -1,0 +1,13 @@
+{
+  "name": "nprail-download",
+  "version": "1.0.0",
+  "description": "NPrail Download Site",
+  "main": "server.js",
+  "author": "Noah Prail <me@nprail.me>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "s3": "^4.4.0"
+  }
+}
