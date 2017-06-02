@@ -6,8 +6,15 @@
             <h1 class="page-header">
                 NPrail Downloads <small>Portal</small>
             </h1>
-            <p>Select an item below. </p>
-            
+            {{#each items as |item itemId|}}
+            <div class="col-md-4">
+                <a href="/downloads/{{itemId}}">
+                    <div class="well">
+                        {{item.name}} {{#if item.locked}}<i class="fa fa-fw fa-lock"></i>{{/if}}
+                    </div>
+                </a>
+            </div>
+            {{/each}}
         </div>
     </div>
     <!-- /.row -->

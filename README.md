@@ -6,7 +6,7 @@ Have a bug or an issue with this? [Open a new issue](https://github.com/nprail/n
 
 ## Creator
 
-* @nprail - [Twitter](https://twitter.com/nprail)
+* [@nprail](https://github.com/nprail) - [Twitter](https://twitter.com/nprail)
 
 
 ## Copyright and License

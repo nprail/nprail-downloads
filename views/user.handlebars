@@ -1,0 +1,26 @@
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                {{user.nickname}}'s Profile
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    <i class="fa fa-dashboard"></i> Portal
+                </li>
+                <li class="active">
+                    User
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <img src="{{user.picture}}" alt="Profile photo" class="img img-circle">
+            <pre>{{{userProfile}}}</pre>
+        </div>
+    </div>
+
+</div>
