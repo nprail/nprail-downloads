@@ -5,6 +5,9 @@
   "main": "server.js",
   "author": "Noah Prail <me@nprail.me>",
   "license": "MIT",
+  "engines": {
+    "node": "8.x.x"
+  },
   "dependencies": {
     "body-parser": "^1.17.2",
     "connect-ensure-login": "^0.1.1",
