@@ -20,7 +20,7 @@
     <div class="row">
         <div class="col-lg-12">
             {{#each item.flavors as |flavor flavorId|}}
-                <a href="https://dl.nprail.me/{{id}}/{{id}}-{{flavor.url}}.jar" class="btn btn-default">Download {{flavor.name}}</a>
+                <a href="https://dl.nprail.me/{{flavorId}}/{{flavorId}}-{{flavor.url}}.jar" class="btn btn-default">Download {{flavor.name}}</a>
             {{/each}}
         </div>
     </div>
