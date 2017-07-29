@@ -92,6 +92,14 @@ const items = {
             name: 'Dev',
             url: 'latest'
         }]
+    },
+    dynmap: {
+        name: 'Dynmap',
+        locked: false,
+        flavors: [{
+            name: 'Dev',
+            url: 'latest'
+        }]
     }
 }
 app.locals.items = items;
